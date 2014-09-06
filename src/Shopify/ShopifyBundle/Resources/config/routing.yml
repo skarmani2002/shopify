@@ -1,0 +1,6 @@
+shopify_shopify_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ShopifyShopifyBundle:Default:index }
+shopify_install:
+    path:     /shopify/install
+    defaults: { _controller: ShopifyShopifyBundle:Default:index }
