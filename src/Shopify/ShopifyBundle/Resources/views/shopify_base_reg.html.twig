@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Shopify </title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+        
+    </head>
+    <body class="ext_site_hldr">
+        <div class="full_wrapper">
+            <div class="holder">    
+                <section class="site_container">
+                    {% block action_block_content %}
+                    {% endblock %}
+                    
+                    {% block reg_fitting_room %}
+                    {% endblock %}
+                    <!--/.site_container--></section>
+           
+                <!--/.holder--></div>
+                {% block bottom_random_content %}
+            {% endblock %} 
+            
+                <!--/.full_wrapper--></div>
+        </body>
+    </html>

@@ -4,3 +4,8 @@ shopify_shopify_homepage:
 shopify_install:
     path:     /shopify/install
     defaults: { _controller: ShopifyShopifyBundle:Default:index }
+    
+shopify_create:
+    pattern:  /shopify/create
+    defaults: { _controller: ShopifyShopifyBundle:Default:create }
+    

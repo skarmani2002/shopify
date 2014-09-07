@@ -10,6 +10,12 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
+        return $this->render('ShopifyShopifyBundle:Default:install_form.html.twig');
+   
+    }
+ #----------------------------------------------------------------------------
+    public function createAction(){
+        
         return new response("test");
     }
 }
